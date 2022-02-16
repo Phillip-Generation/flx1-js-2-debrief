@@ -32,4 +32,4 @@ function itemList(item) {
     }
 }
 
-itemList('purse');
+itemList('hat');

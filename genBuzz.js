@@ -4,18 +4,22 @@
    * Instructions: For numbers from 1 to an upper limit (inclusive), print 'Gen' to the console if the number is a multiple of 3, print 'Buzz' if it is a multiple 5, print 'GenBuzz' if it a multiple of both 3 and 5. Otherwise, print the number to the console. Be sure to check that number your `upperLimit` is of type `number`.
 */
 
-function genBuzz(myNumber) {
-    if (typeof myNumber !== 'number') {
-        console.log('This is not a number')
-    } else if (myNumber % 3 === 0 && myNumber % 5 === 0) {
-        console.log('GenBuzz')
-    } else if (myNumber % 3 === 0) {
-        console.log('Gen')
-    } else if (myNumber % 5 === 0) {
-        console.log('Buzz')
+function genBuzz(upperLimit) {
+    if (typeof upperLimit !== 'number') {
+        console.log('This is not a number');
     } else {
-        console.log(myNumber)
+        for (let i=1; i <= upperLimit; i++) {
+            if (i % 15 === 0) {
+                console.log('GenBuzz');
+            } else if (i % 3 === 0) {
+                console.log('Gen');
+            } else if (i % 5 === 0) {
+                console.log('Buzz');
+            } else {
+                console.log(i);
+            }
+        }
     }
 }
 
-genBuzz(3);
+genBuzz(15);
