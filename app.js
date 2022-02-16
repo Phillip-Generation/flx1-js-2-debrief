@@ -1,12 +1,10 @@
 // JS 2 Debrief
-
-
 const excercises = ['Push-ups', 'Sit-ups', 'Bear Crawls', '1 mile run', 
 '60 second plank', 'Burpees, Jumping Jacks', 'Squats', 'Weighted Squats', 
 'Inch Worms'];
 
 //Select a specified number of excercise
-function selectExcercises(numberOfExcercises){
+/*function selectExcercises(numberOfExcercises){
   
   for (let i = 0; i <= numberOfExcercises; i++) {
     let r = Math.floor(Math.random() * excercises.length);
@@ -15,40 +13,37 @@ function selectExcercises(numberOfExcercises){
   
 }
 selectExcercises(4);
+*/
 
-const selectExcercises2 = (numberOfExcercises) => {
+const selectExcercises2 = (n) => { 
+  n = parseInt(n);
   
-  for (let i = 0; i <= numberOfExcercises; i++) {
-    let r = Math.floor(Math.random() * excercises.length);
-    console.log(excercises[r]);
+  for (let i = 0; i <= n; i++) { let r = Math.floor(Math.random() * excercises.length);
+    console.log(excercises[r]); 
   }
-  
-}
-selectExcercises2(4);
+};
 
-// Part 2 GenBuzz 
+selectExcercises2(prompt('How many excercises to choose?'));
 
-let upperLimit = prompt("Please enter a whole number")
-upperLimit = parseInt(upperLimit);
-  
-
-// Check myNumber is type Number
-if (typeof upperLimit !== 'number') {
-  console.log('This is not a number');
-}
-// Check myNumber factor 3
-else if (upperLimit % upperLimit === 0) {
-  console.log('Gen');
-}
-// Check myNumber factor 5
-else if (upperLimit % 5 === 0) {
+// Part 2 GenBuzz Log Gen if 1-15, Buzz if upperLimit mod 3 true, and Gen Buzz if both mod 3 and mod 5 true
+const genBuzz = (upperLimit) => {  upperLimit = parseInt(upperLimit); 
+  if (typeof upperLimit !== 'number') {  console.log('This is not a number');
+  } else if (upperLimit <= 15) { console.log('Gen'); 
+}else if (upperLimit % 3 === 0) { let modThree = true;
   console.log('Buzz');
-}
-// Check myNumber factors of 3 and 5 
-else if (typeof myNumber === 'number' && modThree && modFive) {
-  console.log('GenBuzz');
+}else if (modThree === true && upperLimit % 5 === 0) { console.log('GenBuzz');
+}else console.log(upperLimit);}
 
+genBuzz(prompt('Enter a Number between 1-15'));
+
+// Part 3 E-Commerce
+// Inventory Checker takes inventory Item input
+const inventoryItemChecker = inventoryItem => { switch (inventoryItem) {
+  case 'Shoes': console.log('Shoes are $50');    break;
+  case 'Jeans': console.log('Jeans are $25');    break;
+  case 'Hats':  console.log('Hats are $12');    break;
+  case 'Socks': console.log('Socks are $2');    break;
+  default: console.log(`Invalid item: ${inventoryItem}.`);}
 }
-// Print myNumber if not either factor 3 or 5 
-else
-  console.log(myNumber);
+
+inventoryItemChecker(prompt('Shoes, Socks, Hats, Jeans (Case Sensitive)'));
