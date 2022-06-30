@@ -1,10 +1,7 @@
-# Functions, Scope & Program Flow Debrief
-
-## Instructions
+# Functions, Scope & Program Flow - Debrief
 
 * Start by linking your js file to your html file
-
-1. Open in browser/live server so you can see your changes in real time and notice how the code morphs the `live browser page`
+* Open in browser/live server so you can see your changes in real time and notice how the code morphs the `live browser page`
 
 1. GenBuzz
    * Using the Instructions below, write a function that prints numbers from 1 to an upper limit. That upper limit should be passed into your function as an argument.
