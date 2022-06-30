@@ -60,9 +60,6 @@ function randomExercises(num) {
 randomExercises(4)
 
 
-
-
-
 //4. Print a random integer
 // Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
