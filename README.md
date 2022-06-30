@@ -1,5 +1,7 @@
 # Functions, Scope & Program Flow Debrief
 
+* Start by linking your js file in your html file
+
 1. GenBuzz
    * Using the Instructions below, write a function that prints numbers from 1 to an upper limit. That upper limit should be passed into your function as an argument.
     *   Ex. genBuzz(15) should print the genBuzz pattern described below from 1 to the upper limit of 15.
