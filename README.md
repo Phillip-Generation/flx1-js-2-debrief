@@ -1,6 +1,10 @@
 # Functions, Scope & Program Flow Debrief
 
-* Start by linking your js file in your html file
+## Instructions
+
+* Start by linking your js file to your html file
+
+1. Open in browser/live server so you can see your changes in real time and notice how the code morphs the `live browser page`
 
 1. GenBuzz
    * Using the Instructions below, write a function that prints numbers from 1 to an upper limit. That upper limit should be passed into your function as an argument.
@@ -19,10 +23,10 @@
      * Socks- $2
      * If the function input is not an item in the store, then print 'Invalid Item' to the console.
 
-3. Print a random integer
-    *Print a random integer (whole number) between 50(inclusive) and 100(exclusive) to the console
+3. This link contains instructions for completing #3: <https://docs.google.com/document/d/1lp3TI6wICWtmrNadPkDVI7gmBPo5ZBBEv0ZlP21ds7A/edit?usp=sharing>
 
-<!-- 3. This link contains instructions for completing #3:  https://docs.google.com/document/d/1lp3TI6wICWtmrNadPkDVI7gmBPo5ZBBEv0ZlP21ds7A/edit?usp=sharing -->
+<!-- 4. Print a random integer
+    *Print a random integer (whole number) between 50(inclusive) and 100(exclusive) to the console -->
 
 
 ## Part 1 - Fork and Clone the project
@@ -32,12 +36,6 @@
 * Navigate to your github profile to find the _newly forked repository_.
 * Clone the repository from **your account** into the directory on your computer that you use to keep your projects (ex. `dev` directory).
 * Open the newly cloned project in a code editor (ex. Visual Studio Code).
-
-## Setup
-
-1. Open in browser/live server so you can see your changes in real time and notice how the code morphs the `live browser page`
-
-2. Start by linking your js file to your html file
 
 ### Part 2 - Edit the _cloned_ project
 
