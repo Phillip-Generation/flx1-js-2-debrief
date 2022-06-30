@@ -1,5 +1,11 @@
 # Functions, Scope & Program Flow Debrief
 
+## Instructions
+
+* Start by linking your js file to your html file
+
+1. Open in browser/live server so you can see your changes in real time and notice how the code morphs the `live browser page`
+
 1. GenBuzz
    * Using the Instructions below, write a function that prints numbers from 1 to an upper limit. That upper limit should be passed into your function as an argument.
     *   Ex. genBuzz(15) should print the genBuzz pattern described below from 1 to the upper limit of 15.
@@ -30,12 +36,6 @@
 * Navigate to your github profile to find the _newly forked repository_.
 * Clone the repository from **your account** into the directory on your computer that you use to keep your projects (ex. `dev` directory).
 * Open the newly cloned project in a code editor (ex. Visual Studio Code).
-
-## Setup
-
-1. Open in browser/live server so you can see your changes in real time and notice how the code morphs the `live browser page`
-
-2. Start by linking your js file to your html file
 
 ### Part 2 - Edit the _cloned_ project
 
