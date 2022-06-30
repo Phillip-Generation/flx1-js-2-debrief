@@ -3,8 +3,8 @@ console.log('Your JS file is linked!');
 //1. GenBuzz Function
 //Write your code below this line:
 
-const genBuzz = () =>{
-    for(ourNumber=1; ourNumber<101; ourNumber++){
+const genBuzz = (num) =>{
+    for(ourNumber=1; ourNumber<num; ourNumber++){
 
             if(typeof ourNumber !== 'number'){
                 console.log('This is not a number');
@@ -17,7 +17,7 @@ const genBuzz = () =>{
             }else{console.log(ourNumber);}
         }
     }
-    genBuzz();
+    genBuzz(20);
 
 //2. E-Commerce Item list Function
 //Write your code below this line:
@@ -50,7 +50,7 @@ storeItem('shoes');
 function randomExercises(num) {
 	const exercises = ["Push-ups", "Sit-ups", "Bear Crawls", "1 mile run", "60 second plank", "Burpees", "Jumping Jacks","Squats", "Weighted Squats", "Inch Worms"];
 
-    for(i = 0; i < numberOfExercises; i++){
+    for(i = 0; i < num; i++){
         const arrayLength= exercises.length;
         const randomInt = Math.floor(Math.random()* arrayLength);
         const randExercise = exercises[randomInt];
