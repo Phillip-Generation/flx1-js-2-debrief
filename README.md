@@ -21,6 +21,13 @@
      * If the function input is not an item in the store, then print 'Invalid Item' to the console.
 
 3. This link contains instructions for completing #3: <https://docs.google.com/document/d/1lp3TI6wICWtmrNadPkDVI7gmBPo5ZBBEv0ZlP21ds7A/edit?usp=sharing>
+<<<<<<< HEAD
+=======
+
+<!-- 4. Print a random integer
+    *Print a random integer (whole number) between 50(inclusive) and 100(exclusive) to the console -->
+
+>>>>>>> solved
 
 ## Part 1 - Fork and Clone the project
 

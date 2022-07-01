@@ -1,8 +1,7 @@
 console.log('Your JS file is linked!');
 
-//1. GenBuzz Function
+//1. FizzBuzz Function
 //Write your code below this line:
-
 
 
 
@@ -11,14 +10,7 @@ console.log('Your JS file is linked!');
 
 
 
-
 // 3. Exercise Tracker
-//Write your code below this line:
-
-
-
-
-//4. Print a random integer
 // Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 //Write your code below this line:
