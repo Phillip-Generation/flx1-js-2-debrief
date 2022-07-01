@@ -1,23 +1,25 @@
 console.log('Your JS file is linked!');
 
-//1. GenBuzz Function
+//1. FizzBuzz Function
 //Write your code below this line:
 
-const genBuzz = (num) =>{
+const fizzBuzz = (num) =>{
     for(ourNumber=1; ourNumber<num; ourNumber++){
 
-            if(typeof ourNumber !== 'number'){
-                console.log('This is not a number');
-            }else if(ourNumber%15 === 0){
-                console.log('GenBuzz');
-            }else if(ourNumber%3 === 0){
-                console.log('Gen')
-            }else if(ourNumber%5 === 0){
-                console.log('Buzz')
-            }else{console.log(ourNumber);}
-        }
-    }
-    genBuzz(20);
+		if(typeof ourNumber !== 'number'){
+			console.log('This is not a number');
+		}else if(ourNumber%15 === 0){
+			console.log('FizzBuzz');
+		}else if(ourNumber%3 === 0){
+			console.log('Fizz')
+		}else if(ourNumber%5 === 0){
+			console.log('Buzz')
+		}else{
+			console.log(ourNumber);
+		};
+    };
+}
+    fizzBuzz(20);
 
 //2. E-Commerce Item list Function
 //Write your code below this line:
