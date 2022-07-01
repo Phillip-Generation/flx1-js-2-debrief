@@ -1,4 +1,4 @@
-# Functions, Scope & Program Flow Debrief
+# Functions, Scope & Program Flow - Debrief
 
 * Start by linking your js file to your html file
 * Open in browser/live server so you can see your changes in real time and notice how the code morphs the `live browser page`
@@ -22,14 +22,10 @@
 
 3. This link contains instructions for completing #3: <https://docs.google.com/document/d/1lp3TI6wICWtmrNadPkDVI7gmBPo5ZBBEv0ZlP21ds7A/edit?usp=sharing>
 
-<!-- 4. Print a random integer
-    *Print a random integer (whole number) between 50(inclusive) and 100(exclusive) to the console -->
-
-
 ## Part 1 - Fork and Clone the project
 
 * Begin by _forking_ this project into a personal repository.
-   * To do this, click the `Fork` button located at the top right of this page.
+   ** To do this, click the `Fork` button located at the top right of this page.
 * Navigate to your github profile to find the _newly forked repository_.
 * Clone the repository from **your account** into the directory on your computer that you use to keep your projects (ex. `dev` directory).
 * Open the newly cloned project in a code editor (ex. Visual Studio Code).
@@ -50,7 +46,7 @@
 * From the root directory of the project, execute the following commands:
     * `git add .`
         * Add all files in current directory to the staging area
-    * `git commit -m 'I have made an edit to a file!'`
+    * `git commit -m ' **write a commit message explaining what you did in that commit** '`
         * Save all staged changes to local repository
     * `git push -u origin main`
         * Push changes from local repository to remote repository
